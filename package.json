@@ -1,0 +1,27 @@
+{
+  "name": "what-would-they-say",
+  "version": "1.0.0",
+  "description": "character quote generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mausercodes/project4.git"
+  },
+  "author": "John Mauser/Shawn Ebeyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mausercodes/project4/issues"
+  },
+  "homepage": "https://github.com/mausercodes/project4#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.11.0",
+    "gulp-sass": "^2.0.1",
+    "jshint-stylish": "^2.0.0"
+  }
+}
