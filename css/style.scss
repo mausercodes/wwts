@@ -134,30 +134,20 @@ a:hover {
 	border-bottom: 1px solid rgb(64, 224, 208);
 }
 
-.theme {
-	border: 1px solid white;
-	padding: 5px 15px 5px 15px;
-	font-family: 'Petit Formal Script', cursive;
-	transition: all 0.5s;
-	letter-spacing: 1px;
-}
-
-.theme:hover {
-	color: rgb(64, 224, 208);
-	background: white;
-}
-
+.theme,
 .themeOg {
-	border: 1px solid white;
-	padding: 5px 15px 5px 15px;
+	
+
 	font-family: 'Petit Formal Script', cursive;
 	transition: all 0.5s;
 	letter-spacing: 1px;
 }
 
+.theme:hover,
 .themeOg:hover {
 	color: rgb(64, 224, 208);
 	background: white;
+	cursor: pointer;
 }
 
 footer p{
@@ -238,10 +228,6 @@ footer p{
 
 	.sidebar{
 		max-width: 100%;
-	}
-
-	.paragraphTheme{
-		font-size: 12px;
 	}
 
 	.funkyLinks{

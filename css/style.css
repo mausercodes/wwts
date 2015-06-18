@@ -241,33 +241,21 @@ a:hover {
   letter-spacing: 5px;
   border-bottom: 1px solid turquoise; }
 
-.theme {
-  border: 1px solid white;
-  padding: 5px 15px 5px 15px;
-  font-family: 'Petit Formal Script', cursive;
-  -webkit-transition: all 0.5s;
-          transition: all 0.5s;
-  letter-spacing: 1px; }
-
-.theme:hover {
-  color: turquoise;
-  background: white; }
-
+.theme,
 .themeOg {
-  border: 1px solid white;
-  padding: 5px 15px 5px 15px;
   font-family: 'Petit Formal Script', cursive;
   -webkit-transition: all 0.5s;
           transition: all 0.5s;
   letter-spacing: 1px; }
 
+.theme:hover,
 .themeOg:hover {
   color: turquoise;
-  background: white; }
+  background: white;
+  cursor: pointer; }
 
-footer {
-  /*display: flex;
-	flex-direction: column;*/ }
+footer p {
+  line-height: 2.5; }
 
 /*Funky Theme*/
 .funkyLinks {
@@ -333,7 +321,7 @@ footer {
               flex: 1  0 auto; }
   .sidebar {
     max-width: 100%; }
-  .paragraphTheme {
-    font-size: 12px; }
   .funkyLinks {
-    font-size: 30px; } }
+    font-size: 30px; }
+  footer .span {
+    display: block; } }
